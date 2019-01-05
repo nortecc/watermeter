@@ -54,6 +54,7 @@ void setup()
 
 void loop()
 {
+  //Test
   sensorValue = analogRead(analogInPin);
   if (sensorValue > triggerLevelHigh)
   {  
