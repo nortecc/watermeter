@@ -6,6 +6,7 @@ int triggerLevelLow = 30;
 int triggerLevelHigh = 60;
 boolean triggerState = false;
 long counter;
+
 int sensorValue = 0;  // value read from the photo transistor when ir LED is off
 long start = 25690;
 void eepromWriteLong(long lo, int adr) {
